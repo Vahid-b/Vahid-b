@@ -29,24 +29,5 @@
 
 ### 🔬 How I work
 
-- **Parity-driven engineering.** When I port behavior, I measure the reference driver first and cite it in the PR. If the new code differs, the difference is written down.
-- **Security first.** Memory-safety hardening of TDS protocol parsing, static analysis (CodeQL, PREfast, BinSkim), and regression harnesses built on in-process mock TDS servers.
-- **AI-native development.** `AGENTS.md`, Copilot instructions, and agent skills for code review, validation, and CI triage, so people and agents can ship together safely.
+- **Security first.** Memory-safety hardening of TDS protocol parsing, static analysis, and regression harnesses built on in-process mock TDS servers.
 - **Release engineering.** Multi-stage YAML pipelines, signing, symbols, NuGet, and builds you can reproduce.
-
-### 🚀 Recent highlights
-
-- [Add ActiveDirectoryIntegrated authentication to mssql-odbc](https://github.com/microsoft/mssql-rs/pull/665): Windows, plus Kerberos → WS-Trust on Linux and macOS
-- [Integrate descriptor records with binding and implementation metadata](https://github.com/microsoft/mssql-rs/pull/436)
-- [Implement ODBC catalog functions](https://github.com/microsoft/mssql-rs/pull/325)
-- [Enforce `SQL_ATTR_QUERY_TIMEOUT` so a blocked statement can't wait forever](https://github.com/microsoft/mssql-rs/pull/442)
-- [Add positioned cursor operations](https://github.com/microsoft/mssql-rs/pull/67)
-
-### 🔭 Right now
-
-- 🦀 Bringing the Rust ODBC driver to parity with the classic C++ driver
-- 🤖 Making large legacy C++ codebases ready for AI agents
-- 📈 Exploring observability for database drivers
-- 🤝 Open to OSS collaboration on Rust and data connectivity
-
-<sub>⚡ Fun fact: I can read a TDS packet hex dump faster than a stack trace.</sub>
